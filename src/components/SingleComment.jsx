@@ -1,12 +1,7 @@
-import { ListGroup, Button } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
 
 const SingleComment = ({ comment }) => (
-  <ListGroup.Item>
-    {comment.comment}
-    <Button variant="danger" className="ml-2">
-      {" "}
-    </Button>
-  </ListGroup.Item>
+  <ListGroup.Item>{comment.comment}</ListGroup.Item>
 );
 
 export default SingleComment;
